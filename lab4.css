@@ -1,0 +1,41 @@
+th {
+    background-color: lightgray;
+}
+table, th, td {
+    border-width: 2px;
+    border-style: solid;
+    border-color:black;
+}
+th, td {
+    padding: 10px;
+}
+table {
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+.img1, .img2, .img3 {
+    height: 2in; width: 2.5in;
+    border: 5px; border-color: red; border-style: dashed;
+    padding: 30px;
+}
+.text {
+    text-align: center;
+    text-decoration: underline; 
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 25px;
+}
+.link1
+a:hover {
+    color:red
+}
+.link2
+a:visited {
+    color: gray;
+}
+.link3
+a:active {
+    color: orange;
+}
